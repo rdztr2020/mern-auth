@@ -2,12 +2,11 @@ export default function Home() {
   return (
     <div className='px-4 py-12 max-w-4xl mx-auto'>
       <h1 className='text-4xl font-extrabold mb-8 text-slate-800 text-center'>
-        Welcome to Our Next Auth Application
+        Nerd App
       </h1>
       <div className='bg-white p-6 rounded-lg flex flex-col items-center'>
         <img
-          src='https://kivuto.com/wp-content/uploads/2021/06/User_Authentication_Best_Practices_Image.jpg'
-          alt='Authentication Illustration'
+          src='https://t3.ftcdn.net/jpg/02/92/70/26/240_F_292702655_ilgc3lYGuSqNb6aV5w17iLU14vJZYqJ6.jpg'
           className='rounded-lg h-96 w-full object-cover mb-6'
         />
         <div>
@@ -36,7 +35,7 @@ export default function Home() {
           <ul className='text-gray-700 mb-4 space-y-2'>
             <li>
               <a
-                href='https://github.com/sahandghavidel/next-auth-app'
+                href='https://github.com/rdztr2020/mern-auth'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center text-blue-500 hover:underline'

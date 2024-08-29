@@ -28,7 +28,7 @@ export default function About() {
           <ul className='text-gray-700 mb-4 space-y-2'>
             <li>
               <a
-                href='https://github.com/sahandghavidel/next-auth-app'
+                href='https://github.com/rdztr2020/mern-auth'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='flex items-center text-blue-500 hover:underline'
@@ -64,8 +64,7 @@ export default function About() {
         </div>
         <div className='flex justify-center items-center'>
           <img
-            src='https://www.loginradius.com/blog/static/6d170d83a7074847494831a6df861d3c/d3746/cover-auth.jpg'
-            alt='Description of image'
+            src='https://img.freepik.com/free-photo/optimism-wallpaper-with-smiley-face_23-2150039333.jpg?size=626&ext=jpg'
             className='rounded-lg h-96 w-full object-cover'
           />
         </div>

@@ -1,7 +1,7 @@
 import { Webhook } from 'svix';
 import { headers } from 'next/headers';
 import { createOrUpdateUser, deleteUser } from '@/lib/actions/user';
-import { User } from '@clerk/nextjs/dist/types/server';
+
 
 export async function POST(req) {
   // You can find this in the Clerk Dashboard -> Webhooks -> choose the endpoint
@@ -68,7 +68,7 @@ export async function POST(req) {
         email_addresses,
         username
       );
-      await createOrUpdateUser(user as User)
+      
       
       return new Response('User is created or updated', {
         status: 200,

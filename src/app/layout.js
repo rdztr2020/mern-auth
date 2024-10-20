@@ -7,7 +7,7 @@ import Loader from '@/components/Loader';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nerd Login",
+  title: "Nerd😁Login",
   description: "Next Auth with Clerk and MongoDB",
 };
 

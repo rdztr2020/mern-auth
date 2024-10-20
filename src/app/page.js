@@ -1,3 +1,5 @@
+
+
 export default function Home() {
   return (
     <div className='px-4 py-12 max-w-4xl mx-auto'>
@@ -7,6 +9,8 @@ export default function Home() {
       <div className='bg-white p-6 rounded-lg flex flex-col items-center'>
         <img
           src='https://t3.ftcdn.net/jpg/02/92/70/26/240_F_292702655_ilgc3lYGuSqNb6aV5w17iLU14vJZYqJ6.jpg'
+          alt="Picture of the author"
+          
           className='rounded-lg h-96 w-full object-cover mb-6'
         />
         <div>

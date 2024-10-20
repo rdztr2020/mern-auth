@@ -1,3 +1,5 @@
+
+
 export default function About() {
   return (
     <div className='px-4 py-12 max-w-4xl mx-auto'>
@@ -65,6 +67,8 @@ export default function About() {
         <div className='flex justify-center items-center'>
           <img
             src='https://img.freepik.com/free-photo/optimism-wallpaper-with-smiley-face_23-2150039333.jpg?size=626&ext=jpg'
+            alt="wallpaper"
+            
             className='rounded-lg h-96 w-full object-cover'
           />
         </div>
